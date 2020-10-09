@@ -1,0 +1,195 @@
+@media(max-width:1370px){.header_download_button{text-align:left;}
+}
+@media(max-width:1199px){.list_table img{max-width:100%;}
+.main_table{height:450px;}
+.game_step_number p:after{left:115px;}
+.game_step_number p:before{right:115px;}
+.game_step_number p{font-size:22px;padding-top:15px;}
+.game_step_number p span{font-size:10px;}
+.brif_game_steps .desc{width:70%;}
+.flex-container > div{width: 450px !important;}
+.zone .column_right .bg-img {height: 60%;width: 70%;bottom: 65px;}
+}
+@media(max-width:1128px){.carousel .caption h2{font-size:40px;}
+.carousel .caption h3 , .features .features_title{font-size:20px;}
+.nav-tabs>li>a{width:250px;}
+.faqs .panel-title{font-size:16px;}
+}
+@media(max-width:1007px){.nav-tabs>li>a{width:230px;}
+.desc{font-size:14px;}
+p.footer_note{font-size:10px;}
+.panel-body p{width:100%;}
+.features .features_info{padding: 20px 40px 35px;}
+}
+@media(max-width:991px){.nav-tabs>li>a{font-size:14px;}
+#myHeader.container {width: auto;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{font-size:20px;}
+.zone .column_left ul li{font-size:16px;line-height:2;}
+.zone .column_left, .zone .column_right{height:470px;justify-content:center;}
+.under_heading{width:100%;}
+.btn{width:25%;}
+.game_steps{margin-bottom:60%;}
+.features .features_info{align-items:center;padding:20px 30px 36px;text-align:center;}
+.about_us .desc{width:100%;margin:25px auto;}
+.about_us ul li{display:contents;}
+.faqs .panel-title{line-height:1.6;word-spacing:1px;padding-right:38px;}
+.how_to_play .caption{top:20%;}
+.brif_game_steps .desc{width:100%;}
+.game_step_desc{display:block;text-align:center;}
+.game_step_number p:after{left:5px;}
+.game_step_number p:before{right:5px;}
+.step-img{margin:0 auto;}
+.hwp_questions .desc{width:100%;}
+.features .features_info{padding: 30px 50px 35px;}
+.footer_logo{max-width:80%;}
+.top_footer ul li{list-style-type:disc;}
+#back-button{bottom:80px;}
+.zone .column_right .bg-img {height: 50%;}
+}
+
+@media(max-width:991px){.features .flex-container > div {width: 100% !important;}
+}
+@media(max-width:767px){html{overflow-x:hidden;}
+#menu{width:412px;padding:130px 130px 0 0;}
+#menuToggle{right:50px;}
+#menu a{font-size:18px;}
+.carousel .caption{top:0%;left:50%;transform:translate(-50%, 50%);text-align:center;}
+.inner-banner .inner-banner-heading{font-size:34px;}
+.heading_tagline{font-size:12px;}
+.tab-content .desc{text-align:left;}
+.nav-tabs>li>a{width:160px;height:60px;font-size:14px;justify-content:flex-start;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{font-size:20px;}
+.nav>li>a>img{max-width:20%;}
+.zone .column_left, .zone .column_right{height:270px;}
+.nav-tabs>li>a>span{margin-left:4%;}
+.screen-img{max-width:40%;margin-bottom:120px;}
+.game_steps{text-align:center;margin-bottom:10%;}
+footer{text-align:center;margin-bottom:11%;}
+footer .top_footer{padding:6% 0 0 0;}
+.footer_title{width:auto;height:0;margin-bottom:8%;}
+.footer_logo{max-width:28%;margin-bottom:4%;}
+section.fixed_btn_mobile.visible-xs ul li{display:contents;}
+.modal-header, h4, .close{font-size:20px;}
+.appModal .close{font-size:35px;}
+.appModal .form-control{display:inline;width:90%;}
+.modal.in .modal-content{display:flex;flex-direction:column;text-align:center;}
+.appModal .modal-body{padding:0;}
+.appModal .form_btn{width:100%;position:relative;margin-top:10px;}
+.list_table img{margin:0 auto;}
+.table_section_1{height:auto;}
+.main_table{padding:30px;}
+.inner-banner{height:100px;}
+.questions .desc{text-align:left;}
+.game_step_number p:before, .game_step_number p:after{width:200px;}
+.game_step_number p:after{left:99px;background-image:linear-gradient(to right, #c61d23, #c61d23);}
+.game_step_number p:before{right:99px;background-image:linear-gradient(to right, #c61d23, #c61d23);}
+.last-question{font-size:25px;height:90px;}
+.scoring_ranking_wrapper .desc{text-align:left;}
+.fixed_btn_mobile .download_btn{max-width:60%;float:right;}
+.fixed_btn_mobile .fixed_logo{max-width:30%;float:left;margin-top:10px;}
+.fixed_btn_mobile.visible-xs{position:fixed;bottom:0;background:#970e08;width:100%;display:flex !important;align-items:center;justify-content:center;padding-top:20px;}
+.faq_input{width:100%;}
+.faq_help_form{display:block;}
+.red_btn{width:100%;position:relative;left:0;right:0;display:flex;justify-content:center;}
+.top_footer ul li{list-style-type:none;}
+#menu-footer1-1, #menu-footer2-1{padding:0;margin:0;}
+.social_icons{margin-top:25px;}
+label.error{left:0;}
+#menuToggle input:checked ~ ul{transform:scale(1.0, 1.0);opacity:1;display:block;}
+#menu{opacity:0;display:none;}
+p.footer_note{margin-bottom:30px;}
+.panel-title::after{top:16px;}
+.zone .column_right .screen-img {max-width: 25%;z-index: 0;}
+.zone .column_right .bg-img{display: none;}
+}
+@media(max-width:647px){.nav-tabs>li>a{width:auto;}
+.game_step_number p:after{left:83px;}
+.game_step_number p:before{right:83px;}
+}
+@media(max-width:600px){.carousel .caption{top:-10%;width:90%;}
+.nav-tabs>li>a{height:50px;}
+.nav-tabs>li{margin:0;}
+.screen-img{margin:16px auto;}
+.zone .column_left, .zone .column_right{display:table-footer-group;}
+.zone .column_left ul li{margin-left:5%;}
+.zone .column_left ul{padding:0;}
+.game_step_number p:after{left:61px;}
+.game_step_number p:before{right:61px;}
+.btn{width:20%;font-size:12px;}
+}
+@media(max-width:567px){.nav-tabs>li>a{font-size:12px;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{font-size:16px;margin-right:0;}
+.nav>li>a>img{max-width:14%;}
+.game_step_number p:after{left:42px;}
+.game_step_number p:before{right:42px;}
+.bottom_headline .heading{font-size:26px;}
+}
+@media(max-width:518px){.nav-tabs>li{margin-right:-14px;}
+}
+@media(max-width:511px){.nav-tabs>li>a{height:45px;}
+.zone .column_left ul li{margin-left:6%;}
+.footer_title{margin-bottom:10%;}
+.game_step_number p:before, .game_step_number p:after{width:130px;}
+.game_step_number p:after{left:86px;}
+.game_step_number p:before{right:86px;}
+.footer_logo{max-width:40%;}
+.help_form .gray_background{padding:30px;}
+}
+@media(max-width:480px){.carousel .caption h2{font-size:20px;}
+.download_btn{max-width:200px;margin-top:10px;}
+.bottom_headline .heading{font-size:20px;}
+.main_heading{font-size:24px;}
+.nav-tabs>li{margin-bottom:0;}
+.how_to_play .caption{top:0;font-size:16px;}
+.youtube-icon{max-width:50px;}
+.btn{width:35%;}
+.game_step_number p:after{left:69px;}
+.game_step_number p:before{right:69px;}
+footer{margin-bottom:14%;}
+.fixed_btn_mobile.visible-xs{padding-top:10px;}
+.bottom_footer .desc{font-size:11px;}
+.bottom_headline .heading{font-size:22px;}
+}
+@media(max-width:467px){.nav-tabs>li>a{height:40px;font-size:12px;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{font-size:14px;}
+footer{margin-bottom:16%;}
+.nav-tabs>li{margin-right:-25px;}
+}
+@media(max-width:447px){.nav-tabs>li>a{padding-right:0;}
+.nav-tabs{border-bottom:0px;}
+.zone .column_left ul li{margin-left:7%;}
+.game_step_number p:after{left:59px;}
+.game_step_number p:before{right:59px;}
+}
+@media(max-width:414px){.nav-tabs>li{margin-right:-22px;}
+}
+@media(max-width:407px){.footer_title{margin-bottom:12%;}
+.game_step_number p:after{left:39px;}
+.game_step_number p:before{right:39px;}
+.footer_logo{max-width:50%;}
+.navbar-brand>img{max-width:80%;}
+}
+@media(max-width:393px){.nav-tabs>li>a{font-size:10px;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{font-size:12px;}
+}
+@media(max-width:375px){.nav-tabs>li>a{padding:9px;}
+.game_step_number p:after{left:19px;}
+.game_step_number p:before{right:19px;}
+.inner-banner .inner-banner-heading{font-size:30px;}
+.bottom_footer .desc{font-size:10px;}
+.bottom_headline .heading{font-size:18px;}
+}
+@media(max-width:361px){.nav-tabs>li>a{padding:10px;}
+.nav-tabs>li{margin-right:-32px;}
+}
+@media(max-width:327px){.zone .column_left ul li{margin-left:9%;}
+.footer_title{margin-bottom:16%;}
+.game_step_number p:before, .game_step_number p:after{top:30px;}
+.game_step_number p{padding-top:0;width:60px;line-height:normal;height:60px;}
+.bottom_footer .desc{font-size:9px;}
+.bottom_headline .heading{font-size:16px;}
+.footer_logo{max-width:62%;}
+}
+@media(max-width:320px){.carousel .caption{width:80%;top:-16%;}
+.btn{width:100%;}
+}

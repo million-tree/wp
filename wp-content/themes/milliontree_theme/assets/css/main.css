@@ -1,0 +1,227 @@
+.navbar{background:#da251c;height:93px;margin:0;border-bottom:1px solid rgba(255,255,255,0.15)}
+img.download_btn{max-width:60%}
+.header_download_button{text-align:center;margin:23px 0 0;padding:0;cursor:pointer;display:none}
+.sticky-header{position:-webkit-sticky;position:sticky;top:0;z-index:1020}
+.sticky .navbar-brand img{max-width:80%;transition:all .1s ease-in}
+.sticky .header_download_button{display:block}
+.on-scroll-display{display:none}
+.sticky .off-scroll-display{display:none}
+.sticky .on-scroll-display{display:block}
+.off-scroll-display img{width:80%}
+.nav>li>a:focus,.nav>li>a:hover{background-color:transparent}
+#menuToggle{display:block;position:absolute;top:30px;right:130px;z-index:1;-webkit-user-select:none;user-select:none}
+#menuToggle input{display:block;width:40px;height:32px;position:absolute;top:-7px;left:-5px;cursor:pointer;opacity:0;z-index:2;-webkit-touch-callout:none}
+#menuToggle span{display:block;width:33px;height:4px;margin-bottom:5px;position:relative;background:#fff;border-radius:3px;z-index:1;transform-origin:4px 0;transition:transform .5s cubic-bezier(0.77,0.2,0.05,1.0),background .5s cubic-bezier(0.77,0.2,0.05,1.0),opacity .55s ease}
+#menuToggle span:first-child{transform-origin:0 0}
+#menuToggle span:nth-last-child(2){transform-origin:0 100%}
+#menuToggle input:checked ~ span{opacity:1;transform:rotate(45deg) translate(-2px,-1px);background:#fff}
+#menuToggle input:checked ~ span:nth-last-child(3){opacity:0;transform:rotate(0deg) scale(0.2,0.2)}
+#menuToggle input:checked ~ span:nth-last-child(2){opacity:1;transform:rotate(-45deg) translate(0,-1px)}
+#menu{position:absolute;width:512px;height:100vh;margin:-58px 0 0 0;padding:180px 130px 0 0;right:-130px;text-align:right;background:#970e08;list-style-type:none;-webkit-font-smoothing:antialiased;text-transform:uppercase;transform-origin:0 0;transform:translate(100%,0);/*transition:transform .5s cubic-bezier(0.77,0.2,0.05,1.0)*/}
+#menu a{font-family:TitilliumWeb;font-size:24px;font-weight:normal;line-height:2.08;letter-spacing:normal;color:#fff}
+#menu{opacity:0;display:none;}
+#menuToggle input:checked ~ ul{transform:scale(1.0,1.0);opacity:1;display:block;}
+
+/* ===============================================================  Start Banner */
+.carousel-control.left,.carousel-control.right{background-image:none;top:50%}
+.carousel-indicators .active{width:10px;height:10px;border:6px solid #fff;background-color:#fff;margin:2px}
+.carousel-indicators li{background-color:rgba(255,255,255,0.38);border:1px solid rgba(255,255,255,0.38);margin:3px}
+.bottom_headline .heading{background:#970e08;color:#fff;padding:10px;margin:0;font-family:TitilliumWeb;font-weight:bold;letter-spacing:1px}
+.carousel .caption{position:absolute;font-family:TitilliumWeb;font-weight:bold;color:#fff;bottom:4%;right:-4%}
+.carousel .caption h2{font-size:60px;font-family:TitilliumWeb;font-weight:bold;letter-spacing:1px}
+.carousel .caption h3{font-size:36px;font-family:TitilliumWeb;font-weight:bold;letter-spacing:1px}
+.banner_download_button{cursor:pointer;margin-left:-16px;margin-top:40px}
+/* ===============================================================  End Banner*/
+
+/* ===============================================================  Start Zone */
+.zone .gray_background{background:#efeff4;padding:3% 0 0 0;border-bottom:1px solid #282828}
+.zone .main_heading{padding:1% 0 3%}
+.nav-tabs>ul{margin:-50px 0 -50px -10px}
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{background-color:#efeff4;color:#c61d23;border-bottom:1px solid #c61d23!important;font-size:25px}
+.nav-tabs>li.active .nav_icon_hover{display:inline}
+.zone .column_right .screen-img{position: relative;max-width: 45%;z-index: 9;}
+.zone .column_right .bg-img {background: #efeff4;height: 78%;width: 78%;position: absolute;border-radius: 50%;bottom: 16px;}
+.nav-tabs>li.active .nav_icon{display:none}
+.tab-select:hover{color:#c61d23}
+.tab-select .nav_icon_hover{display:none}
+.tab-select:hover .nav_icon_hover{display:inline}
+.tab-select:hover .nav_icon{display:none}
+.menus{display:flex;justify-content:center;align-items:center}
+.nav-tabs>li>a{width:280px;height:70px;background-color:#efeff4;font-family:TitilliumWeb;font-size:20px;line-height:normal;color:#282828;display:flex;justify-content:center;align-items:center;border:1px solid #efeff4!important}
+.nav-tabs>li>a>span{margin-left:10%;font-family:Titillium Web Bold}
+.zone .column_left,.zone .column_right{height:550px;display:flex;justify-content:space-evenly;flex-direction:column}
+.zone .column_left .desc{font-size:14px}
+.zone .column_right{align-items:center}
+.zone .column_left ul li{list-style-type:decimal-leading-zero;font-family:Lato;font-size:18px;font-weight:bold;line-height:3;color:#282828}
+/* =============================================================== End Zone*/
+
+/* =============================================================== Start How to play */
+.how_to_play{padding:3% 0 3% 0}
+.video{position:relative}
+.video .caption{position:absolute;top:30%;left:50%;transform:translate(-50%,50%);text-align:center;color:#f4f4f4;font-size:20px;font-family:'Lato Bold';cursor:pointer}
+.step_number span{font-family:TitilliumWeb;font-size:14px;font-weight:600;line-height:normal;color:#c4c4c4;text-transform:uppercase}
+.step_number{font-family:TitilliumWeb;font-size:48px;font-weight:300;line-height:.9;color:#c4c4c4}
+.step_desc .step_title{font-family:Lato;font-size:16px;font-weight:bold;line-height:normal;color:#282828}
+.step_desc .step_text{font-family:Lato;font-size:14px;line-height:normal;color:#696969}
+/* ===============================================================  End How to play*/
+
+/* ===============================================================  Start Table */
+.list_table{background:#282828;padding:2%}
+.list_table .under_heading{color:#fff}
+.list_table .main_heading{color:#fff;font-family:TitilliumWeb;font-size:24px;font-weight:bold;line-height:normal}
+.list_table img{max-width:90%}
+.main_table{background:#fff;border-radius:10px;height:500px;padding:45px}
+.table_section_1{height:100%;margin-top:10%;width:95%}
+.table_scroll{overflow:auto;overflow-x:hidden;overflow-y:auto;height:100%}
+.table_heading{font-family:Lato;font-size:16px;font-weight:bold;border-bottom:1px solid #282828;color:#282828;line-height:2.5}
+.table_text{font-family:Lato;font-size:14px;line-height:1.86;color:#696969;margin-top:30px;margin-bottom:30px}
+.table_scroll::-webkit-scrollbar{width:3px}
+.table_scroll::-webkit-scrollbar-track{background:#c4d4e0}
+.table_scroll::-webkit-scrollbar-thumb{background:#888}
+.table_scroll::-webkit-scrollbar-thumb:hover{background:#696969}
+/* ===============================================================  End Table*/
+
+/* ===============================================================  Start features */
+.features{padding:3% 0 3% 0}
+.features .features_info{border-radius:10px;border:solid 1px #c4c4c4;height:auto;display:flex;justify-content:space-evenly;flex-direction:column;align-items:flex-start;padding:80px 50px 55px;/*margin:20px 0 10px 0*/}
+.features .features_title{font-family:'Titillium Web Bold';font-size:24px;font-weight:bold;line-height:.92;color:#282828;margin:20px 0 20px}
+.features .flex-container {display: flex;flex-wrap: wrap;}
+.features .flex-container > div {width: 550px;margin: 10px;}
+.panel-default>.panel-heading{padding:0}
+.read_more{font-family:Lato;font-size:18px;font-weight:bold;line-height:normal;color:#c61d23;text-decoration:underline;cursor:pointer}
+#one_more_1,#one_more_2,#one_more_3,#one_more_4{display:none}
+.read_more .fa-chevron-right:before{content:"\f054";font-size:15px;margin-left:10px}
+/* ===============================================================  End features*/
+
+/* ===============================================================  Start Faq */
+.faqs{padding:3% 0 3% 0}
+.faqs .main_heading{padding-bottom:3%}
+.panel-title{position:relative}
+.panel-group .panel{margin-bottom:14px;border-radius:0;background:whitesmoke;cursor:pointer}
+.panel-title .collapsed{background-color:black}
+.panel-body{font-family:Lato;font-size:16px;line-height:1.5;letter-spacing:normal;color:#696969;height:auto}
+.panel-body p{width:70%}
+.fixed_btn{display:none}
+.panel-title::after{content:"\f107";color:#333;top:8px;right:0;position:absolute;font-family:"FontAwesome";padding-right:20px}
+.panel-heading:hover,.faqs .panel-title:hover{background:#c61d23;color:#fff!important}
+.panel-heading:active,.panel-heading:focus,.faqs .panel-title:active,.faqs .active,.faqs .panel-title:focus{background:#c61d23;color:#fff!important}
+.panel-title[aria-expanded="true"]::after{content:"\f106"}
+.collapse.in{background:#f4f4f4}
+.faqs .panel-title{font-family:Lato;font-size:18px;font-weight:bold;line-height:normal;color:#282828;padding:14px;text-align:left}
+/* ===============================================================  End Faq*/
+
+/* ===============================================================  Start About Us */
+.about_us{padding:3% 0 3%}
+.about_us ul li{display:inline-block}
+.about_us .desc{width:70%;margin:35px auto}
+.about_us ul li{display:inline-block;width:16%}
+.features_text{font-family:Lato;font-size:16px;font-weight:bold;color:#282828;margin-top:10px}
+/* ===============================================================  End About Us*/
+
+/* ===============================================================  Start How to play page Page */
+.inner-banner{height:120px;background-color:#970e08;display:flex;align-items:center;justify-content:center;text-align:center}
+.inner-banner .inner-banner-heading{font-family:TitilliumWeb;font-size:44px;font-weight:bold;line-height:1.41;color:#fff}
+.brif_game_steps{margin:10% 0 10%}
+.game_step_number{display:flex;justify-content:center;position:relative}
+.game_step_number p:before,.game_step_number p:after{content:"";position:absolute;width:330px;top:40px;height:2px;background:#d6d4d4}
+.game_step_number p:before{right:215px;background-image:linear-gradient(to right,#ccc,#fdf7f7)}
+.game_step_number p:after{left:215px;background-image:linear-gradient(to right,#fdf7f7,#ccc)}
+.game_step_number p{width:80px;height:80px;border-radius:50px;box-shadow:0 2px 10px 0 rgba(0,0,0,0.08);background-color:#c61d23;font-family:Lato;font-size:27px;font-weight:bold;line-height:1;color:#fff;text-align:center;padding-top:10px}
+.game_step_number p span{font-size:12px;font-weight:normal;text-transform:uppercase}
+.brif_game_steps .desc{width:50%}
+.game_step_desc{display:flex;justify-content:center;align-items:center}
+.title{font-family:Lato;font-size:18px;font-weight:bold;line-height:2;color:#282828}
+.questions{border-radius:4px;box-shadow:0 2px 10px 0 rgba(0,0,0,0.08);background-color:#fff;padding:5%;margin-top:2%}
+.hwp_questions{padding:3% 0 5%}
+.hwp_questions .desc{width:85%}
+.last-question{background:#970e08;color:#fff;display:flex;justify-content:center;align-items:center;font-family:TitilliumWeb;font-size:30px;font-weight:bold;height:124px}
+/* ===============================================================  Start How to play page Page */
+
+/* ===============================================================  Start Scoring Ranking System page Page */
+.heading_tagline{font-family:TitilliumWeb;font-size:16px;font-weight:bold;line-height:3;color:#fff}
+.scoring_ranking_wrapper .content_section{margin:3% 0 3%}
+.scoring_ranking_wrapper .content_section h2.main_heading{text-align:left}
+.scenario_title{font-family:TitilliumWeb;font-size:18px;font-weight:bold;line-height:normal;color:#000;text-align:center}
+.scenario_table{margin:3% 0 3%}
+.scenario_table table{border:solid 1px #c4c4c4;margin:0}
+thead{background-color:#970e08;color:#fff;font-size:16px;font-family:Lato}
+.first_clm{background-color:#f4f4f4;font-family:Lato;font-size:16px;font-weight:normal;color:#000}
+table .small_text{font-family:Lato;font-size:10px;font-weight:normal;line-height:1;color:#000}
+.rank{font-family:Lato;font-size:16px;font-weight:bold;line-height:1.5;color:#000}
+.table td{padding:15px 0 15px 10px!important;font-size:16px}
+.second_table .scenario_table table{border:solid 2px #282828;border-right:0;border-left:none;width:75%;font-size:16px;color:#282828;font-family:Lato;font-weight:bold}
+.second_table .table td{padding:12px!important;font-size:16px}
+p.bg_blue_ball{background:#043bff;height:30px;width:30px;border-radius:50px}
+p.bg_black_ball{background:#000;height:30px;width:30px;border-radius:50px}
+.bg_table_darkgray{background:#da251cbf;color:#fff;border-radius:50px;margin:-15px -15px -20px -13px;display:flex;align-items:center;justify-content:center;text-align:center;height:50px;width:50px}
+.bg_table_darkgray_1{background:#da251cbf;color:#fff;border-radius:50px;margin:-15px -15px -20px 27px;display:flex;align-items:center;justify-content:center;text-align:center;height:50px;width:50px}
+.seventh_table table td{text-align:center;padding:16px!important;vertical-align:middle!important;border-top:none!important}
+.seventh_table table th{text-align:center;vertical-align:middle!important}
+/* ===============================================================  End Scoring Ranking System page Page*/
+
+/* ===============================================================  Start fairplay pagePage */
+.fairplay_wrapper .section_first{margin: 3% 0 3%;}
+/* ===============================================================  End fairplay pagePage*/
+
+/* ===============================================================  Start faq pagePage */
+.faq_page{padding:3% 0 3% 0}
+.help_form{margin-top:5%}
+.help_form .gray_background{background:#f4f4f4;padding:70px}
+.faq_page .main_heading,.modal-header,.faq_page h4,.faq_page .close{text-align:left}
+.faq_page .main_heading{padding-top:3%}
+.faq_page .panel-title{position:relative}
+.faq_page .panel-group .panel{margin-bottom:14px;border-radius:0;background:whitesmoke;cursor:pointer}
+.faq_page .panel-title .collapsed{background-color:black}
+.faq_page .panel-body{font-family:Lato;font-size:16px;line-height:1.5;letter-spacing:normal;color:#696969;height:auto}
+.faq_page .panel-body p{width:100%}
+.faq_page .fixed_btn{display:none}
+.panel-title::after{content:"\f107";color:#333;top:8px;right:0;position:absolute;font-family:"FontAwesome";padding-right:20px}
+.faq_page .panel-heading:hover,.faq_page .panel-title:hover,.faq_page .panel-heading:active,.faq_page .panel-heading:focus,.faq_page .panel-title:active,.faq_page .active,.faq_page .panel-title:focus{background:#c61d23;color:#fff!important}
+.faq_page .panel-title[aria-expanded="true"]::after{content:"\f106"}
+.faq_page .collapse.in{background:#f4f4f4}
+.faq_page .panel-title{font-family:Lato;font-size:18px;font-weight:bold;line-height:normal;color:#282828;padding:14px}
+.faq_help_form{display:flex;justify-content:center}
+.faq_help_form .form-group{position:relative}
+.faq_input{width:617px;height:54px;border-radius:5px;box-shadow:0 5px 4px 0 rgba(0,0,0,0.1);background-color:#fff;font-family:Lato;font-size:16px;font-weight:normal;}
+.red_btn{position:absolute;width:115px;padding:10px;border-radius:5px;background-color:#970e08;font-family:Lato;font-size:16px;font-weight:normal;color:#fff;right:10px;top:8px;line-height:normal;text-align:center}
+/* ===============================================================  End faq pagePage*/
+
+/* ===============================================================  Start Privacy policy Page Page */
+.privacy_policy_wrapper .section_first{margin:3% 0 3%}
+.highlight_text{font-weight:600}
+.small_title{font-family:Lato;font-size:16px;font-weight:bold;font-stretch:normal;font-style:normal;line-height:1.5;letter-spacing:normal;color:#000}
+/* ===============================================================  End Privacy policy Page Page*/
+
+/* ===============================================================  Start Footer Page */
+footer{background:#c61d23;color:#fff;font-family:Lato;font-weight:normal}
+footer .desc{color:#fff;font-weight:100}
+footer .top_footer{padding:6% 0 16% 0}
+.footer_title{width:117px;height:30px;font-family:Lato;font-size:20px;font-weight:900;line-height:1.5;letter-spacing:1px;color:#fff;margin-bottom:12%}
+.social_icons ul li{display:inline;margin:3%}
+.top_footer ul li{line-height:2;cursor:pointer;font-size:14px}
+.top_footer ul li a{color:#fff}
+.footer_logo{margin-bottom:10%}
+#menu-footer1{padding:0}
+.fixed_btn{position:fixed;right:-170px;bottom:80%;transition:right .5s}
+/* ===============================================================  End Footer Page*/
+
+ /* ======================================================= Start Enquiry Modal Page */
+.modal.in .modal-content{background:#d5cdcd;padding:50px;width:80%}
+.appModal .close{font-size:45px;color:#333;opacity:1;margin:-40px -30px 0 0;outline:0;font-weight:normal}
+.appModal input{height:20px;font-family:Lato;font-size:14px;font-weight:normal;font-stretch:normal;font-style:normal;letter-spacing:normal;color:#959595;padding:20px;border:0;position:relative}
+.appModal .form_btn{width:106px;height:40px;outline:0;background-color:#c61d23;color:#fff;position:absolute;border:0;text-transform:uppercase}
+.modal-header,h4,.close{color:#282828!important;text-align:center;font-size:30px}
+.modal-header{border-bottom:1px solid transparent}
+.modal-dialog{display:flex;align-items:center;justify-content:center;margin-top:10%}
+.appModal p{color:#919394;font-size:12px;margin:14px 0 24px 15px}
+.cont_btns{margin:0 auto;text-align:center;justify-content:center;display:flex}
+.appModal .orrange_btn{width:200px;font-size:20px}
+/* ======================================================= End Enquiry Modal Page */
+
+/* ======================================================= Start Back to top button */
+#back-button{display:inline-block;background-color:#c61d23;width:50px;height:50px;text-align:center;border-radius:4px;position:fixed;bottom:30px;right:0;transition:background-color .3s,opacity .5s,visibility .5s;opacity:0;visibility:hidden;z-index:1000}
+#back-button::after{content:"\f077";font-family:FontAwesome;font-weight:normal;font-style:normal;font-size:2em;line-height:50px;color:#fff}
+#back-button:hover{cursor:pointer;background-color:#333;text-decoration:none}
+#back-button:active{background-color:#555}
+#back-button.show{opacity:1;visibility:visible}
+/* ======================================================= End Back to top button */
